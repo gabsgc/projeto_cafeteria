@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #a2421c;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%238e3a19' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+header {
+    background: #a2421c;
+    padding: 2rem 0;
+    margin-bottom: 5rem;
+}
+
+h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30pt;
+    font-family: 'Courgette', cursive;
+}
+
+h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 25pt;
+}
+
+h4{
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+section#cardapio {
+    margin-top: 5rem;
+}
+
+ul#produtos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+    list-style: none;
+    max-width: 70rem;
+    margin: auto;
+}
+
+ul#produtos li{
+    display: inline-block;
+}
+
+ul#produtos a {
+    text-decoration: none;
+}
+
+.coffees {
+    border: 3px yellow solid;
+    height: 270px;
+    width: auto;
+    border-radius: .7rem;
+}
+
+#mistura-da-casa {
+    background: url(../img/Expresso.jpg) center/cover no-repeat;
+}
+
+#cafe-arabico {
+    background: url(../img/arabico.jpg) top/cover no-repeat;
+}
+
+#cappucino {
+    background: url(../img/capuccino.jpg) center/cover no-repeat;
+}
+
+#cha-chai {
+    background: url(../img/tradicional.jpg) top/cover no-repeat;
+}
+
+figcaption {
+    color: #F3F781;
+    text-align: center;
+    font-size: 13pt;
+    margin-top: 1rem;
+}
+
+footer{
+    margin: 5rem auto;
+    margin-bottom: 1rem;
+    height: 80px;
+    padding-top: 30px;
+    background-color: #a2421c;
+}
